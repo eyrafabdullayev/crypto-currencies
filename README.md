@@ -47,14 +47,14 @@ There are two cases: **if you are not using RXJava** or **if you are using it**
 
   2) If you are using RXJava
   
-    > At first you must define this variable
-    //it used for when the Activity has been destroyed closing calls
-    private var compositeDisposable: CompositeDisposable? = null
+>     At first you must define this variable
+      //it used for when the Activity has been destroyed closing calls
+      private var compositeDisposable: CompositeDisposable? = null
     
-    > Then you must initialize this variable in onCreate() method like below
-    compositeDisposable = CompositeDisposable()
+>     Then you must initialize this variable in onCreate() method like below
+      compositeDisposable = CompositeDisposable()
     
-    > After that
+>     After that
   
   ```kotlin
         val retrofit = Retrofit.Builder()
