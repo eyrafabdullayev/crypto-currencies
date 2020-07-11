@@ -1,4 +1,4 @@
-# crypto-currency
+# crypto-currencies
 
 ## Info
 In this app i am going to show you current cryptocurrencies.
