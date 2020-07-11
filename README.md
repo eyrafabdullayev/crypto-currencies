@@ -3,7 +3,7 @@
 ## Info
 In this app i am going to show you current cryptocurrencies.
 
-> I took API KEY for free from this website [https://nomics.com/]
+> I took MY_API_KEY for free from this website [https://nomics.com/]
 
 ## Installation
 
