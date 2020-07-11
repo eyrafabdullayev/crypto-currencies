@@ -3,6 +3,8 @@
 ## Info
 In this app i am going to show you current cryptocurrencies.
 
+> I took API KEY for free from this website [https://nomics.com/]
+
 ## Installation
 
 Using this commands you can get it:
@@ -39,7 +41,7 @@ There are two cases: **if you are not using RXJava** or **if you are using it**
         
 //    and interface CryptoAPI  
        
-      @GET("prices?key=")
+      @GET("prices?key=YOUR_KEY")
       fun getData(): Call<List<CryptoModel>>
 ```
 
@@ -65,10 +67,10 @@ There are two cases: **if you are not using RXJava** or **if you are using it**
     
         //and interface CryptoAPI can be like that
     
-        @GET("prices?key=")
+        @GET("prices?key=YOUR_KEY")
         fun getData(): Observable<List<CryptoModel>>
     
-```    
+```  
   
   
   
