@@ -48,12 +48,15 @@ There are two cases: **if you are not using RXJava** or **if you are using it**
   2) If you are using RXJava
   
 >     At first you must define this variable
+```kotlin
       //it used for when the Activity has been destroyed closing calls
       private var compositeDisposable: CompositeDisposable? = null
+```      
     
 >     Then you must initialize this variable in onCreate() method like below
+```kotlin
       compositeDisposable = CompositeDisposable()
-    
+```   
 >     After that
   
   ```kotlin
